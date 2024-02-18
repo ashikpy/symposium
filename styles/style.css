@@ -1,4 +1,5 @@
 :root {
+  /* Colors */
   --clr-dark: #070a13;
   --clr-light: #f1f5f9;
   --clr-slate400: #94a3b8;
@@ -33,6 +34,7 @@
 html {
   scroll-behavior: smooth;
 }
+
 body {
   font-family: "General Sans", sans-serif;
   background-color: var(--clr-dark);
@@ -42,8 +44,11 @@ body {
   0% {
     background-position: 0 0;
   }
+  50% {
+    background-position: 350px 350px;
+  }
   100% {
-    background-position: 700px 700px;
+    background-position: 0 0;
   }
 }
 

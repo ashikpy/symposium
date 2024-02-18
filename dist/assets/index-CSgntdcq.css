@@ -208,8 +208,14 @@ strong {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 1rem;
-  padding-bottom: 2rem;
+  padding: 1rem;
+  -webkit-backdrop-filter: blur(0.89px);
+  backdrop-filter: blur(0.89px);
+  background-color: #00000003;
+  outline: 1.5px solid rgba(225, 29, 72, 0.4);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin-bottom: 2rem;
 }
 .header__logo {
   font-size: 23px;
@@ -277,7 +283,8 @@ strong {
     font-size: 25px !important;
   }
   .header {
-    padding-top: 2rem;
+    padding: 2rem 5.5rem;
+    margin-bottom: 2rem;
   }
 }
 @media (min-width: 1024px) {
